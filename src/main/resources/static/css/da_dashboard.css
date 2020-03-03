@@ -1,0 +1,513 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+	margin: 0px auto;
+	padding: 5px;
+
+}
+
+.entire_page {
+    width: 1300px;
+    height: 1150px;
+}
+
+.centerall {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.dblock {
+	display: block;
+}
+
+.flex_row {
+	display: flex;
+	flex-flow: row;
+	justify-content:center;
+}
+
+.flex_row_se {
+	display: flex;
+	flex-flow:row;
+	justify-content: space-evenly;
+}
+
+.flex_col {
+	display: flex;
+	flex-flow: column;
+}
+
+.jc-end {
+	justify-content: end;
+}
+
+.flex_colcen {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items:center;
+}
+
+.flex_colsb {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flow_start {
+	justify-content: flex-start;
+}
+.flex_center {
+	justify-content: center;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+.table-border {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.td-border {
+	border: 1px dashed black;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.bold {
+	text-decoration: bold;	
+}
+
+.search_bar {
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between
+}
+
+.search
+
+.search_boxes {
+	width: 100%;
+	height: 30%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+}
+
+.search_box {
+	width: 100%;
+	height: 8%;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.searchresultsbuttons {
+	width: 100%;
+	height: 6%;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.togglebuttonrow {
+	display: flex;
+	flex-flow: row;
+	justify-content: end;
+}
+
+.half_col {
+	width: 40%;
+	height: 100%;
+}
+
+.mynavbar {
+	height: 8%;
+}
+
+.header {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+
+
+.headercol {
+	width: 70%;
+}
+
+.headerbtnbox {
+	width: 30%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_text {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.pad-left30 {
+	padding-left: 30px;
+}
+
+.margin-left30 {
+	margin-left: 30px;
+}
+
+.name_formbox {
+	width: 100%;
+	height: 30%;
+	border-bottom: 1px solid black;
+}
+
+.box-border {
+	border: 1px solid black;
+}
+
+.box-top {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.box-side {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.box-bottom {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+caption {
+	caption-side:top;
+}
+
+
+.header_text {
+	font-weight: bold;
+	font-size: 24px;
+	height: 26px;
+}
+.subheader_text {
+	font-weight: bold;
+	font-size: 16px;
+	height: 22px;
+}
+
+.error_msg {
+	color: red;
+	font-size: 14px;
+	height: 16px;
+}
+
+
+
+.form_box {
+	border: 1px solid black;
+    width: 40%;
+    height: 25%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.new_feature_form {
+	width: 100%;
+	height: auto;
+	border: 1px solid black;
+}
+
+.form_row {
+	/* enter height here */
+}
+
+.ul_tighten {
+	margin-left: 0px;
+}
+
+.li_tighten {
+	margin: -40px 20px;
+}
+
+.half_width {
+	width: 45%;
+}
+
+.full_width {
+	width: 100%;
+}
+
+.fixed_width {
+	table-layout: fixed;
+}
+
+.dotted-left{
+    border-left: 1px dotted black;
+}
+
+.dotted-right{
+    border-right: 1px dotted black;
+}
+
+.dotted-top{
+    border-top: 1px dotted black;
+}
+
+.dotted-bottom{
+    border-bottom: 1px dotted black;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+.feature_row {
+	font-size: 16px;
+	width: 75%;
+	line-height: 20px;
+
+}
+
+.feature_label {
+	width: 70%;
+}
+
+.form_div {
+	width: 100%;
+	height: 80%;
+
+}
+
+#description_form {
+	width: 100%;
+	height: 90%;
+	margin-left: 5px;
+}
+
+.input_bar {
+	width: auto;
+	height: 24px;
+    background-color: aliceblue;
+    border: .5px solid skyblue;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+.modal_input_bar {
+	width: 120%;
+	height: 24px;
+    background-color: aliceblue;
+    border: .5px solid skyblue;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+.modal_input_num {
+	align-items: flex-start;
+	width: 100px;
+	background-color: aliceblue;
+    border: .5px solid skyblue;
+}
+
+.search_input_bar {
+	width: 100%;
+	height: 24px;
+    background-color: aliceblue;
+    border: .5px solid skyblue;
+	text-align: left;
+    font-size: 14px;
+}
+
+.input_number {
+	width: 50px;
+	height: 24px;
+    background-color: aliceblue;
+    border: .5px solid skyblue;
+    display: flex;
+    justify-content: flex-start;
+	font-size: 14px;
+}
+
+
+.projdesc-ta {
+	width: 120%;
+	background-color: aliceblue;
+    border: .5px solid skyblue;
+}
+
+
+.desc_textarea {
+	background-color: aliceblue;
+    border: .5px solid skyblue;
+    width: 95%;
+	height: 100%;
+	font-size: 14px;
+}
+
+.input_textarea {
+	background-color: aliceblue;
+    border: .5px solid skyblue;
+    width: 65%;
+	height: 100%;
+	font-size: 14px;
+}
+
+.celltextarea {
+	width: 100%;
+	height: 90%;
+	background-color: aliceblue;
+    border: .5px solid skyblue;
+}
+
+.cellinputbar {
+	width: 100%;
+	height: 90%;
+	background-color: aliceblue;
+    border: .5px solid skyblue;
+}
+
+
+
+.button_row {
+	height: 15%;
+	align-items: bottom;
+}
+
+
+.comment_field {
+	width: 90%;
+	height: 100%;
+	background-color: aliceblue;
+    border: .5px solid skyblue;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+
+.text_box {
+	border: 1px solid black;
+	height: 400px;
+	width: 50%;
+	display: flex;
+	flex-flow: row;
+	
+}
+
+.label_column {
+	width: 35%;
+	height: 100%;
+	padding-right: 25px;
+}
+
+.input_column {
+	width: 65%;
+	height: 100%;
+}
+
+.comment_box {
+	height: 50px;
+	width: 60%;
+}
+
+.bg-modal {
+	width:100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-content {
+	width: 550px;
+	height: 400px;
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+
+}
+
+.reg_label_column {
+	width: 35%;
+	height: 75%;
+}
+
+#close {
+	position: absolute;
+	top: 0;
+	right: 7px;
+	font-size: 28px;
+	transform: rotate(45deg);
+	cursor: pointer;
+
+}
+
+#newprojectmodal {
+	width: 650px;
+	height: 600px;
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+#editfeaturemodal {
+	width: 650px;
+	height: 700px;
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+.modal_label {
+	position: absolute;
+	left: 60px;
+}
+.modal_right_radio {
+	position: absolute;
+	right: 0;
+	width: 30%;
+}
+
+
+.bottom-right {
+	position: absolute;
+	bottom: 60px;
+	right: 50px;
+}
